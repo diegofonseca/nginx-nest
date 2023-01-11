@@ -13,6 +13,4 @@ WORKDIR /code
 
 COPY ./backend /code
 
-RUN chmod +x 
-
 RUN npm i -g @nestjs/cli
